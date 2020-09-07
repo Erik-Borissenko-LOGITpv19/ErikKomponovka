@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ErikKomponovka.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Chocolate"
+                   Padding="30,20,20,20"
+                   Opacity="0.5"
+                   BorderColor="Black">
+                <Label Text="Первый пункт"
+                          TextColor="Red"
+                          FontSize="Title"/>
+            </Frame>
+            <Frame BackgroundColor="Chocolate"
+                   Padding="30,20,20,20"
+                   Opacity="0.5"
+                   BorderColor="Black">
+                <Label Text="Первый пункт"
+                          TextColor="Blue"
+                          FontSize="Title"/>
+            </Frame>
+            <Frame BackgroundColor="Chocolate"
+                   Padding="30,20,20,20"
+                   Opacity="0.5"
+                   BorderColor="Black">
+                <Label Text="Первый пункт"
+                          TextColor="Blue"
+                          FontSize="Title"/>
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

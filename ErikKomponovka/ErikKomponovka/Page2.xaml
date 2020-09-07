@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ErikKomponovka.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame CornerRadius="90"
+                   BackgroundColor="red"
+                   BorderColor="Black"
+                   Margin="60,10"
+                   Padding="80">
+                <Label Text="red"
+                   TextColor="Black"
+                   FontSize="Title">
+             </Label>
+            </Frame>
+            <Frame CornerRadius="90"
+                   BackgroundColor="Yellow"
+                   BorderColor="Black"
+                   Margin="60,10"
+                   Padding="80">
+                <Label Text="yellow"
+                   TextColor="Black"
+                   FontSize="Title">
+                </Label>
+            </Frame>
+            <Frame CornerRadius="90"
+                   BackgroundColor="green"
+                   BorderColor="Black"
+                   Margin="60,10"
+                   Padding="80">
+                <Label Text="green"
+                   TextColor="Black"
+                   FontSize="Title">
+                </Label>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
