@@ -9,31 +9,56 @@
                    BorderColor="Black"
                    Margin="60,10"
                    Padding="80">
-                <Label Text="red"
+                <Label x:Name="red" 
+                       Text="red"
                    TextColor="Black"
                    FontSize="Title">
-             </Label>
+                </Label>
             </Frame>
-            <Frame CornerRadius="90"
+            <Frame x:Name="Yelow"
+                   CornerRadius="90"
                    BackgroundColor="Yellow"
                    BorderColor="Black"
                    Margin="60,10"
                    Padding="80">
-                <Label Text="yellow"
+                <Label x:Name="yellow"
+                       Text="yellow"
                    TextColor="Black"
                    FontSize="Title">
                 </Label>
             </Frame>
-            <Frame CornerRadius="90"
+            <Frame x:Name="Gren"
+                   CornerRadius="90"
                    BackgroundColor="green"
                    BorderColor="Black"
                    Margin="60,10"
                    Padding="80">
-                <Label Text="green"
+                <Label x:Name="green"
+                       Text="green"
                    TextColor="Black"
                    FontSize="Title">
                 </Label>
             </Frame>
+            <StackLayout x:Name="Fon"
+                Orientation="Horizontal">
+                <Button x:Name="on"
+                    Text="Sisse"
+                    HorizontalOptions="StartAndExpand"
+                    Clicked="on_Clicked"/>
+                <Button x:Name="off"
+                        Text="Välja"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="off_Clicked"/>
+                <Button x:Name="Random"
+                        Text="Random"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="Random_Clicked"/>
+                <Button x:Name="My"
+                        Text="Its my best color =)"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="My_Clicked">
+                </Button>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
